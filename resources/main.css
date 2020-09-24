@@ -34,12 +34,16 @@ h2{width:35%;
 .description-wrapper p:nth-child(2) {padding-top:15px;}
 main {height:65%;
     display:flex;}
+    /* ti-am atasat si screenshot, imaginea nu ocupa tot spatiul necesar aici, cel putin pe rezolutia mea, dar probabil pe orice rezolutie mai are decat a ta */
 .picture-wrapper{width:60%;
     margin-top:20px;
     height:100%;;
     background-image: url(../assets/bg.jpg);
     background-size: cover;
-    background-repeat: none;}
+    /* background-repeat: none; */
+    /* no-repeat e valoare corecta aici */
+    background-repeat: no-repeat;
+}
 .arrows-wrapper {font-size:50px;
                 color: #f4dfc4 ;
                 margin-left:50px;}
@@ -49,7 +53,7 @@ main {height:65%;
     width:28%;
     height:30%;
     bottom:0%;
-    position:Absolute;
+    position:absolute;
     left:38%;
     color:white;
     padding-left: 10px;
